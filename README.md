@@ -16,7 +16,12 @@ Using R, for each country in our sample, we used pubicly available shapefiles de
 - Maps: Contains the completed maps.
 
 ## Completed maps:
-![alt text](https://github.com/delmoralsu/DE155_International-Migration/Maps/UAE.png?raw=true)
+![alt text](https://github.com/delmoralsu/DE155_International-Migration/blob/main/Maps/UnitedArabEmirates.png?raw=true)
+![alt text](https://github.com/delmoralsu/DE155_International-Migration/blob/main/Maps/Brazil.png?raw=true)
+![alt text](https://github.com/delmoralsu/DE155_International-Migration/blob/main/Maps/Japan (2).png?raw=true)
+![alt text](https://github.com/delmoralsu/DE155_International-Migration/blob/main/Maps/SouthAfrica.png?raw=true)
+![alt text](https://github.com/delmoralsu/DE155_International-Migration/blob/main/Maps/Switzerland (2).png?raw=true)
+![alt text](https://github.com/delmoralsu/DE155_International-Migration/blob/main/Maps/United States (2).png?raw=true)
 
 #### Following is the detailed list of sources for the data and the shapefiles for map elaborated:
 - Brazil:
