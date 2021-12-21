@@ -36,7 +36,7 @@ num <- seq(1, 7, by = 1)
 ref <- cbind(UAESHP@data[["ADM1_NAME"]], num)
 
 ## Load data on distribution of migrant population
-UAEData <- read.csv("UAE.csv", sep = ";")
+UAEData <- read.csv("IntMgrntPopDatasets/UAE.csv", sep = ";")
 
 ## Convert the "Percentage" column to numeric.
 UAEData$Percentage <- as.numeric(UAEData$Percentage)
