@@ -52,7 +52,7 @@ theme_map <- function(...) {
 SwitzerlandSHP <- readOGR("ShapeFiles/Switzerland/gadm36_CHE_1.shp")
 
 ## Load data on distribution of migrant population
-SwissMigrantPop <- read.csv("Switzerland.csv", sep = ";")
+SwissMigrantPop <- read.csv("IntMgrntPopDatasets/Switzerland.csv", sep = ";")
 
 ## Convert the "Percentage" column to numeric and replace commas for dots.
 SwissMigrantPop$Percentage <- as.numeric(sub(",", ".", sub(".", "", SwissMigrantPop$Percentage, fixed=TRUE), fixed=TRUE))
@@ -103,7 +103,7 @@ color = "white", size = 0.1) +
        y = NULL, 
        title = "Switzerland international migrant population in 2020", 
        subtitle = "Migrants as a percentage of the total population in each canton", 
-       caption = "Source: Bundesamt für Statistik 2020, own elaboration.")
+       caption = "Source: Bundesamt fÃ¼r Statistik 2020, own elaboration.")
 
 ## Display the map.
 SwissMap
