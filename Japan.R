@@ -52,7 +52,7 @@ theme_map <- function(...) {
 JapanSHP <- readOGR("ShapeFiles/Japan/jpn_admbnda_adm1_2019.shp")
 
 ## Load data on distribution of migrant population
-Japan <- read.csv("Japan.csv", sep = ";")
+Japan <- read.csv("IntMgrntPopDatasets/Japan.csv", sep = ";")
 ## The dataset has many additional rows. The following code chunk gets rid of them.
 Num <- seq(1, 47, by = 1)
 Japan <- Japan[Num,]
