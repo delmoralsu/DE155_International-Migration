@@ -52,7 +52,7 @@ theme_map <- function(...) {
 SouthAfricaSHP <- readOGR("ShapeFiles/SouthAfric/zaf_admbnda_adm1_sadb_ocha_20201109.shp")
 
 ## Load migrant population distribution data
-SouthAfricaMigrantPop <- read.csv("SouthAfrica.csv", sep = ";")
+SouthAfricaMigrantPop <- read.csv("IntMgrntPopDatasets/SouthAfrica.csv", sep = ";")
 
 ## The shapefile is tidied up so we can assign the international migrant population percentages to each region.
 SouthAfricaTidy <- tidy(SouthAfricaSHP)
