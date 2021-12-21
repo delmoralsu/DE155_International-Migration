@@ -34,7 +34,7 @@ BrazilTidy <- tidy(BrazilSHP)
 
 ## Load migrant population distribution data. It has been worked on to match the regions identificators in the shape file,
 ## so both databases can be directly merged.
-BrazilMigrantPop <- read.csv("Brazil.csv", sep = ";")
+BrazilMigrantPop <- read.csv("IntMgrntPopDatasets/Brazil.csv", sep = ";")
 
 ## Both databases are merged by id, so now each region is associated to the proportion of international migrants that live there.
 BrazilData <- merge(BrazilTidy, BrazilMigrantPop, by = "id")
