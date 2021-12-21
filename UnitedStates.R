@@ -74,7 +74,7 @@ USData <- filter(USData, V1 != 02)
 USData <- filter(USData, lat > 0)
 
 ## Load data on distribution of migrant population
-USMigrantPop <- read.csv("US.csv", sep = ";")
+USMigrantPop <- read.csv("IntMgrntPopDatasets/US.csv", sep = ";")
 
 ## Both databases are merged by id, so now each state is associated to the proportion of international migrants that live there.
 ## Some manipulation of the column names is needed before the merging.
